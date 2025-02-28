@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Favorite Website</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <!--Custom css-->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Favorite Website</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          More
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="about.html">About</a></li>
+                          <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <!--Button for greeting-->
+        <button onclick="greet1()">Click ME</button>
+
+        <!--Banner-->
+        <div class="container-fluid">
+            <img class="banner1" src="https://t4.ftcdn.net/jpg/10/99/73/17/360_F_1099731794_GgwESxkFzpSXu06IN7b572FBHQwnTuLW.jpg">
+            <h1>Welcome to HotRod Central!</h1>
+            <h2>Excitement Begins Here</h2>
+
+        </div>
+        <br>
+        <br>
+    
+        <main>
+            <!--cards-->
+            <div class="card1" style="width: 18rem;">
+                <img src="https://www.summit4success.com/rax/images/business-directory/Summit%20Racing.png" class="card-img-top" alt="summit racing">
+                <div class="card-body">
+                  <p class="card-text">Summit Racing, your one stop shop for quality parts!
+                  </p>
+                </div>
+              </div>
+
+              <div class="card2" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN5QmlJ7-qclc9Cz3ZQYjv5f67wJEu2OHwyg&s" class="card-img-top" alt="tire rack">
+                <div class="card-body">
+                  <p class="card-text">Checkout our sponser for tires, thousands of tires to choose from!!</p>
+                </div>
+              </div>
+
+              <div class="card3" style="width: 18rem;">
+                <img src="https://i.shgcdn.com/dd5b1f53-afa6-40c6-b7b1-8107e05534fa/-/format/auto/-/preview/3000x3000/-/quality/lighter/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Make your car look its best with the best! Get a professional shine with our extensive product line.</p>
+                </div>
+              </div>
+              <br>
+              <br>
+
+              <!--carousel-->
+              <div class="container-fluid">
+              <h3 class="featured-cars">Featured Cars</h3>
+              </div>
+              <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/ThreeWindowCoupeHotrod6791.jpg/640px-ThreeWindowCoupeHotrod6791.jpg" class="d-block w-100" alt="yellow roadster">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://www.motortrend.com/files/66ad57d8610bc40008a57d7c/004-custom-1927-ford-model-t.jpg?w=768&width=768&q=75&format=webp" class="d-block w-100" alt="rat rods">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVBTvY_TvrxpDUR8IKqn0CGZpuJ5OO2EKO1Q&s" class="d-block w-100" alt="duster">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <!--video-->
+              <div class="container-fluid">
+              <div class="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/eVwugD0lhDY?si=rXvkI0JNyG3ZiuWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              </div>
+              
+              <div class="container-fluid">
+                <div class="submit-picture">
+                <p>If you would like to submit a picture of your car to possibly be featured, please fill out our form on the contact page.</p> 
+                </div>
+              </div>
+              <br>
+              <br>
+              
+        </main>
+
+        <!--Footer-->
+        <footer>
+        <p> &copy; 2025 Favorite Website</p>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+
+        <!--Custom JavaScript-->
+        <script src="scripts.js"></script>
+    </body>
+</html>
